@@ -1,17 +1,49 @@
 * {
     border: none;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+#clearBtn {
+    font-size: 28px;
+    padding: 10px 16px;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+}
+
+main {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#title {
+    /* border: 1px solid blue; */
+    font-size: 36px;
+    height: auto;
+    width: auto;
 }
 
 #sketch-container {
-    height: 700px;
-    width: 700px;
+    height: 800px;
+    width: 800px;
     border: 1px solid orange;
-    margin: 0 auto;
+    margin-right: 20%;
     display: grid;
-    grid-template-columns: repeat(16, 43.75px);
-    grid-template-rows: repeat(16, 43.75px);
+    grid-template-columns: repeat(16, 50px);
+    grid-template-rows: repeat(16, 50px);
 }
 
 
