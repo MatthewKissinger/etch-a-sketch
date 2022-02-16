@@ -1,0 +1,19 @@
+* {
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sketch-container {
+    height: 700px;
+    width: 700px;
+    border: 1px solid orange;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(16, 43.75px);
+    grid-template-rows: repeat(16, 43.75px);
+}
+
+
+
+
